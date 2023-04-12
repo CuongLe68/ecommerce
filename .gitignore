@@ -1,0 +1,3 @@
+# config cac file khong duoc day len git
+.env
+node_modules
