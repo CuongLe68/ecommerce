@@ -1,6 +1,7 @@
 ### Mục đích: Tạo các API giúp đẩy nhanh quá trình build web ecommerce
 
 I. PRODUCT
+
 1.Lấy danh sách tất cả sản phẩm
 - function: getAllProducts()
 - Phương thức: GET
