@@ -1,4 +1,4 @@
-<h2> MỤC ĐÍCH: TAO CÁC API GIÚP ĐẨY NHANH QUÁ TRÌNH BUILD WEB ECOMMERCE</h2><br/>
+<h2> MỤC ĐÍCH: TAO CÁC API GIÚP ĐẨY NHANH QUÁ TRÌNH BUILD WEBSITE ECOMMERCE</h2><br/>
 
 <h3>I. CẤU HÌNH<h3>
    <h4>Bước 1: git clone https://github.com/CuongLe68/ecommerce.git</h4>
