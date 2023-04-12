@@ -5,7 +5,7 @@ I. PRODUCT
 1.Lấy danh sách tất cả sản phẩm
 - function: getAllProducts()
 - Phương thức: GET
-- Router: https://"<"your-website">".com/v1/products/allProduct/:category?
+- Router: https://<"your-website">.com/v1/products/allProduct/:category?
 - ví dụ: https://cuongle.com/v1/products/category-sort/ao?sort=asc&limit=1&page=1&limitPage=20&sortBy=price
          Trong đó:<br/>
          + ao? : áo là danh mục (params)<br/>
