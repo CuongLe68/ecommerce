@@ -10,7 +10,7 @@ I. PRODUCT
          Trong đó:<br/>
          + ao? : áo là danh mục (params)<br/>
          + sort=asc : sắp xếp tăng dần (query)<br/>
-         + limit=1: là số lượng sản phẩm cần lấy<br/>
+         + limit=1: là số lượng sản phẩm cần lấy(query)<br/>
          + page=1: là trang hiện tại (query)<br/>
          + limitPage=20: là số sản phẩm mỗi trang (query)<br/>
-         + sortBy=price: là sắp xếp theo giá<br/>
+         + sortBy=price: là sắp xếp theo giá(query)<br/>
