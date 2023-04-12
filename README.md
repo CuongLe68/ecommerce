@@ -1,28 +1,29 @@
-<h2> Mục đích: Tạo các API giúp đẩy nhanh quá trình build web ecommerce</h2><br/>
+<h2> MỤC ĐÍCH: TAO CÁC API GIÚP ĐẨY NHANH QUÁ TRÌNH BUILD WEB ECOMMERCE</h2><br/>
 
-<h3>I. Cấu hình<h3>
+<h3>I. CẤU HÌNH<h3>
    <h4>Bước 1: git clone https://github.com/CuongLe68/ecommerce.git</h4>
    <h4>Bước 2: Vào thư mục dự án, mở command lên nhập lệnh "npm install" để dowload các thư viện về</h4>
    <h4>Bước 3: Ở commnad nhập tiếp lệnh "npm start" để chạy server</h4>
-<h3>I. PRODUCT<h3>
+<h3>II. DANH SÁCH API VÀ CÁCH SỬ DỤNG<h3>
+<h4>1. PRODUCT<h4>
 
-<h4>1. Lấy danh sách tất cả sản phẩm</h4>
+<h5>A. Lấy danh sách tất cả sản phẩm</h5>
 - function: getAllProducts()<br/>
 - Phương thức: GET<br/>
-- Router: https://your-website.com/v1/products/allProduct/:category?<br/>
+- Router: /v1/products/allProduct/:category?<br/>
 - ví dụ: https://cuongle.com/v1/products/category-sort/category=ao?sort=asc&limit=1&page=1&limitPage=20&sortBy=price<br/>
-         Trong đó:<br/>
-         + category=ao : áo là danh mục (params)<br/>
-         + sort=asc : sắp xếp tăng dần (query)<br/>
-         + limit=1: là số lượng sản phẩm cần lấy(query)<br/>
-         + page=1: là trang hiện tại (query)<br/>
-         + limitPage=20: là số sản phẩm mỗi trang (query)<br/>
-         + sortBy=price: là sắp xếp theo giá(query)<br/>
+- Trong đó:<br/>
+   + category=ao : áo là danh mục (params)<br/>
+   + sort=asc : sắp xếp tăng dần (query)<br/>
+   + limit=1: là số lượng sản phẩm cần lấy(query)<br/>
+   + page=1: là trang hiện tại (query)<br/>
+   + limitPage=20: là số sản phẩm mỗi trang (query)<br/>
+   + sortBy=price: là sắp xếp theo giá(query)<br/>
          
-<h4>2. Lấy thông tin chi tiết sản phẩm theo id</h4>
+<h5>B. Lấy thông tin chi tiết sản phẩm theo id</h5>
 - function: getProductById()<br/>
 - Phương thức: GET<br/>
-- Router: https://your-website.com/v1/products/getProduct/:id<br/>
+- Router: /v1/products/getProduct/:id<br/>
 - ví dụ: https://cuongle.com/v1/products/category-sort/6420572d3eb471449502a9cc<br/>
-         Trong đó:<br/>
-         + 6420572d3eb471449502a9cc : là id của sản phẩm có key là id (params)<br/>
+- Trong đó:<br/>
+  + 6420572d3eb471449502a9cc : là id của sản phẩm có key là id (params)<br/>
