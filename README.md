@@ -18,7 +18,7 @@
    + limit=1: là số lượng sản phẩm cần lấy(query)<br/>
    + page=1: là trang hiện tại (query)<br/>
    + limitPage=20: là số sản phẩm mỗi trang (query)<br/>
-   + sortBy=price: là sắp xếp theo giá(query)<br/>
+   + sortBy=price: là sắp xếp theo price(query)<br/>
          
 <h5>B. Lấy thông tin chi tiết sản phẩm theo id</h5>
 - function: getProductById()<br/>
