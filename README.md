@@ -1,5 +1,9 @@
 <h2> Mục đích: Tạo các API giúp đẩy nhanh quá trình build web ecommerce</h2><br/>
 
+<h3>I. Cấu hình<h3>
+   <h4>Bước 1: git clone https://github.com/CuongLe68/ecommerce.git</h4>
+   <h4>Bước 2: Vào thư mục dự án, mở command lên nhập lệnh "npm install" để dowload các thư viện về</h4>
+   <h4>Bước 3: Ở commnad nhập tiếp lệnh "npm start" để chạy server</h4>
 <h3>I. PRODUCT<h3>
 
 <h4>1. Lấy danh sách tất cả sản phẩm</h4>
