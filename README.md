@@ -3,7 +3,7 @@
 <h3>I. CẤU HÌNH<h3>
    <h4>Bước 1: git clone https://github.com/CuongLe68/ecommerce.git</h4>
    <h4>Bước 2: Vào thư mục dự án, mở command lên nhập lệnh "npm install" để dowload các thư viện về</h4>
-   <h4>Bước 3: Ở commnad nhập tiếp lệnh "npm start" để chạy server</h4>
+   <h4>Bước 3: Ở command nhập lệnh "npm start" để chạy server</h4>
 <h3>II. DANH SÁCH API VÀ CÁCH SỬ DỤNG<h3>
 <h4>1. PRODUCT<h4>
 
