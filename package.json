@@ -4,7 +4,7 @@
   "description": "Support to quickly build functions for the sales website",
   "main": "./src/v1/app.js",
   "scripts": {
-    "start": "nodemon ./src/v1/app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
