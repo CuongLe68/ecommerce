@@ -6,7 +6,7 @@ const mongoose = require("mongoose"); //import db
 const dotenv = require("dotenv"); //cấu hình env
 
 //router
-const productRouter = require("./routers/productRouter"); //liên quan đến product
+const productRouter = require("./src/v1/routers/productRouter"); //liên quan đến product
 
 dotenv.config();
 app.use(cors());

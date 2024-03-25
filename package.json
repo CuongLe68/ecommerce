@@ -2,7 +2,7 @@
   "name": "cl68-ecommerce",
   "version": "1.0.0",
   "description": "Support to quickly build functions for the sales website",
-  "main": "./src/v1/app.js",
+  "main": "./index.js",
   "engines": {
     "node": "14.x"
   },
