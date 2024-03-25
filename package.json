@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Support to quickly build functions for the sales website",
   "main": "./src/v1/app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"

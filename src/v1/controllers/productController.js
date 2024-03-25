@@ -143,7 +143,7 @@ async function sortProductsByCategory(req, res) {
 // Thêm sản phẩm mới
 async function createProduct(req, res) {
   try {
-    const category = await Category.findOne({ name: req.body.category });
+    const category = await Category.findOne({ name: req.body.category }); //Kiểm tra xem sản phẩm mới có thuộc danh mục sản phẩm nào không
     if (category) {
       let dateStart = new Date();
       let dateEnd = new Date();
