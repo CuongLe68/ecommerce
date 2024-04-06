@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 })
 
 //routers
-const productRouter = require("./src/v1/routers/productRouter"); //liên quan đến product
+const productRouter = require("./src/routers/productRouter"); //liên quan đến product
 app.use("/v1/products", cors({ origin: '*' }), productRouter);
 
 // Page Error
